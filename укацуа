@@ -115,10 +115,10 @@
                         <a class="nav-link" href="#gtco-reservation"><strong>Бронирование</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="cart-icon" id="openModal">
-                            <i class="fas fa-shopping-cart"></i> Корзина
-                        </a>
-                    </li>
+                        <button class="cart-btn nav-link">
+                             Корзина
+                        </button>
+                   </li>
                 </div>
                
             </ul>
@@ -783,19 +783,7 @@
           }
         }
         </script>
-        <div id="myModal" class="custom-modal">
-            <div class="custom-modal-content">
-                <span class="close" id="closeModal">&times;</span>
-                <h2>Ваша корзина</h2>
-                <p>Здесь будет содержимое вашей корзины...</p>
-                <ul>
-                    <li>Товар 1 - $10</li>
-                    <li>Товар 2 - $15</li>
-                    <li>Товар 3 - $20</li>
-                </ul>
-                <p>Итог: $45</p>
-            </div>
-        </div>
+        
     
 </body>
 
